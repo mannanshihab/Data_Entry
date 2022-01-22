@@ -1,0 +1,186 @@
+/*Start main CSS*/
+.bg-dark{
+	background-color: #2f3239 !important;
+}
+#top_bar .top-menu {
+    font-size: 13px;
+    float: right;
+    margin-left: 10px;
+    height: 0px;
+}
+#top_bar .navbar-nav a {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+}
+#top_bar .navbar-nav a:hover{
+	width: 35px;
+    height: 35px;
+	border: 1px dotted #FFF; 
+	background-color: #3b85cd;
+	color: #fff;
+    text-align: center;
+}
+/*Start Mid HeaD*/
+.text{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.text a{
+	text-decoration: none;
+	color: #333;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.description{
+	margin: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #7A8A9E;
+    margin-top: 10px;
+}
+/*Start main menu*/
+.navbar-nav .nav-link{
+	font-size: 1rem;
+	color: #FFF !important;
+	padding: 8px;
+}
+.navbar-nav .nav-link:focusd{
+	border-bottom: 3px solid #3b85cd;
+	width: 100%;
+}
+/*Start Carousel*/
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+	color: #333;
+}
+.carousel-caption{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1{
+	font-size: 300%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+.fa-search{
+	color: #3b85cd;
+}
+.card{
+	border: none;
+}
+.fa-list{
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #000;
+    color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(31 29 29 / 7%);
+    margin-left: 5rem;
+}
+#breadcrumb {
+    color: #0c97e0;
+    text-align: center;
+    background: #ffffff;
+    border-bottom: 1px solid #dddddd30;
+    max-width: 1175px;
+    margin: -35px auto 0;
+    /*z-index: 9;*/
+    position: relative;
+}
+#breadcrumb li {
+    display: inline-block;
+    list-style: inline;
+    padding: 15px 20px;
+    border-right: 1px solid #dddddd36;
+    font-weight: 500;
+    font-size: 16px;
+}
+#breadcrumb li  a {
+    color: #020202;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.widget {
+    margin-bottom: 40px;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0 0 20px rgb(31 29 29 / 7%);
+}
+.widget:hover {
+    -webkit-box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 20%);
+    box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 20%);
+}
+.widget ul li a{
+	text-decoration: none;
+	list-style: inline;
+	margin-left: 1rem;
+	color: #333;
+	font-weight: bolder;
+}
+.widget ul li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.widget ul {
+    list-style: outside none none;
+    padding: 0;
+    margin: 0;
+}
+.widget-title {
+    position: relative;
+    border-bottom: 1px solid #e2e2e2b0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+.widget-title:after{
+    background: #0c97e0;
+    position: absolute;
+    bottom: -3px;
+    content: "";
+    width: 30px;
+    height: 5px;
+    left: 0;
+}
+
+.entry-meta > span:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    border: none;
+}
+.entry-meta > span {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.user-meta a{
+    text-decoration: none;
+    word-spacing: 5px;
+}
+
+
