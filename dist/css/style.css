@@ -2,11 +2,7 @@
 .bg-dark{
 	background-color: #2f3239 !important;
 }
-#top_bar .top-menu {
-    font-size: 13px;
-    float: right;
-    height: 0px;
-}
+
 #top_bar .navbar-nav a {
     width: 35px;
     height: 35px;
@@ -164,22 +160,5 @@
     left: 0;
 }
 
-.entry-meta > span:first-child {
-    margin-left: 0;
-    padding-left: 0;
-    border: none;
-}
-.entry-meta > span {
-    display: inline-block;
-    margin-bottom: 0;
-    font-size: 14px;
-    line-height: 1;
-    font-size: 15px;
-    margin-right: 15px;
-}
-.user-meta a{
-    text-decoration: none;
-    word-spacing: 5px;
-}
 
 

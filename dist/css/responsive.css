@@ -1,6 +1,20 @@
 /*---Media Queries--*/
 
 @media (max-width: 992px){
+	#top_bar .top-menu {
+	    font-size: 13px;
+	    float: right;
+	    height: 0px;
+	}
+	#top_bar .fa-bars {
+	    width: 75px;
+	    height: 30px;
+	    padding: 8px;
+	    background-color: #3b85cd;
+	    color: white;
+	    border-radius: 3px;
+	    font-size: 16px;
+	}
 	#top_bar .navbar-toggler {
 	    margin: 0 auto;
 	    float: none;
@@ -16,13 +30,7 @@
 		display: -webkit-box;
 	    padding: 10px;
 	}
-	#top_bar .fa-bars {
-	    width: 99px;
-	    height: 29px;
-	    padding: 8px;
-	    background-color: #3b85cd;
-	    color: white;
-	}
+	
 	.text{
 		text-align: center;
 	}
@@ -30,14 +38,14 @@
 		background-color: #333;
 		border-radius: 5px;
 	}
-	#menu .fa-bars{
-		width: 75px;
-	    	height: 35px;
-	    	padding: 8px;
-	    	background-color: black;
-	    	color: #FFF;
-	    	border-radius: 3px;
-	    	font-size: 16px;
+	#menu .fa-bars {
+	    width: 75px;
+	    height: 35px;
+	    padding: 8px;
+	    background-color: black;
+	    color: #FFF;
+	    border-radius: 3px;
+	    font-size: 16px;
 	}
 	.navbar-nav .nav-link{
 		width: 80%;
@@ -70,16 +78,19 @@
 	.carousel-indicators{
 		display: none;
 	}
+	#breadcrumb{
+		margin-top:0px;
+	}
 }
 @media (max-width: 576px){
 	.carousel-caption{
 		top:40%;
 	}
 	.carousel-caption h1{
-		font-size: 250%;
+		font-size: 200%;
 	}
 	.carousel-caption h3{
-		font-size: 110%;
+		font-size: 100%;
 		font-weight: 400;
 		padding-bottom: 1rem;
 	}
